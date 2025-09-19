@@ -1,0 +1,1365 @@
+{
+  "total_albums": 11,
+  "total_tracks": 210,
+  "albums": [
+    {
+      "title": "Taylor Swift",
+      "year": "2006",
+      "sanitized_title": "Taylor_Swift",
+      "track_count": 14,
+      "folder_path": "lyrics/YEAR=2006/ALBUM=Taylor_Swift",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Tim McGraw",
+          "sanitized_title": "Tim_McGraw",
+          "file_path": "lyrics/YEAR=2006/ALBUM=Taylor_Swift/01_Tim_McGraw.md"
+        },
+        {
+          "number": 2,
+          "title": "Picture To Burn",
+          "sanitized_title": "Picture_To_Burn",
+          "file_path": "lyrics/YEAR=2006/ALBUM=Taylor_Swift/02_Picture_To_Burn.md"
+        },
+        {
+          "number": 3,
+          "title": "Teardrops On My Guitar",
+          "sanitized_title": "Teardrops_On_My_Guitar",
+          "file_path": "lyrics/YEAR=2006/ALBUM=Taylor_Swift/03_Teardrops_On_My_Guitar.md"
+        },
+        {
+          "number": 4,
+          "title": "A Place In This World",
+          "sanitized_title": "A_Place_In_This_World",
+          "file_path": "lyrics/YEAR=2006/ALBUM=Taylor_Swift/04_A_Place_In_This_World.md"
+        },
+        {
+          "number": 5,
+          "title": "Cold As You",
+          "sanitized_title": "Cold_As_You",
+          "file_path": "lyrics/YEAR=2006/ALBUM=Taylor_Swift/05_Cold_As_You.md"
+        },
+        {
+          "number": 6,
+          "title": "The Outside",
+          "sanitized_title": "The_Outside",
+          "file_path": "lyrics/YEAR=2006/ALBUM=Taylor_Swift/06_The_Outside.md"
+        },
+        {
+          "number": 7,
+          "title": "Tied Together With A Smile",
+          "sanitized_title": "Tied_Together_With_A_Smile",
+          "file_path": "lyrics/YEAR=2006/ALBUM=Taylor_Swift/07_Tied_Together_With_A_Smile.md"
+        },
+        {
+          "number": 8,
+          "title": "Stay Beautiful",
+          "sanitized_title": "Stay_Beautiful",
+          "file_path": "lyrics/YEAR=2006/ALBUM=Taylor_Swift/08_Stay_Beautiful.md"
+        },
+        {
+          "number": 9,
+          "title": "Should've Said No",
+          "sanitized_title": "Should-ve_Said_No",
+          "file_path": "lyrics/YEAR=2006/ALBUM=Taylor_Swift/09_Should-ve_Said_No.md"
+        },
+        {
+          "number": 10,
+          "title": "Mary's Song (Oh My My My)",
+          "sanitized_title": "Mary-s_Song_(Oh_My_My_My)",
+          "file_path": "lyrics/YEAR=2006/ALBUM=Taylor_Swift/10_Mary-s_Song_(Oh_My_My_My).md"
+        },
+        {
+          "number": 11,
+          "title": "Our Song",
+          "sanitized_title": "Our_Song",
+          "file_path": "lyrics/YEAR=2006/ALBUM=Taylor_Swift/11_Our_Song.md"
+        },
+        {
+          "number": 12,
+          "title": "I'm Only Me When I'm With You",
+          "sanitized_title": "I-m_Only_Me_When_I-m_With_You",
+          "file_path": "lyrics/YEAR=2006/ALBUM=Taylor_Swift/12_I-m_Only_Me_When_I-m_With_You.md"
+        },
+        {
+          "number": 13,
+          "title": "Invisible",
+          "sanitized_title": "Invisible",
+          "file_path": "lyrics/YEAR=2006/ALBUM=Taylor_Swift/13_Invisible.md"
+        },
+        {
+          "number": 14,
+          "title": "A Perfectly Good Heart",
+          "sanitized_title": "A_Perfectly_Good_Heart",
+          "file_path": "lyrics/YEAR=2006/ALBUM=Taylor_Swift/14_A_Perfectly_Good_Heart.md"
+        }
+      ]
+    },
+    {
+      "title": "Fearless",
+      "year": "2008",
+      "sanitized_title": "Fearless",
+      "track_count": 19,
+      "folder_path": "lyrics/YEAR=2008/ALBUM=Fearless",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Jump Then Fall",
+          "sanitized_title": "Jump_Then_Fall",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/01_Jump_Then_Fall.md"
+        },
+        {
+          "number": 2,
+          "title": "Untouchable",
+          "sanitized_title": "Untouchable",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/02_Untouchable.md"
+        },
+        {
+          "number": 3,
+          "title": "Forever & Always (Piano Version)",
+          "sanitized_title": "Forever_-_Always_(Piano_Version)",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/03_Forever_-_Always_(Piano_Version).md"
+        },
+        {
+          "number": 4,
+          "title": "Come In With The Rain",
+          "sanitized_title": "Come_In_With_The_Rain",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/04_Come_In_With_The_Rain.md"
+        },
+        {
+          "number": 5,
+          "title": "Superstar",
+          "sanitized_title": "Superstar",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/05_Superstar.md"
+        },
+        {
+          "number": 6,
+          "title": "The Other Side Of The Door",
+          "sanitized_title": "The_Other_Side_Of_The_Door",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/06_The_Other_Side_Of_The_Door.md"
+        },
+        {
+          "number": 7,
+          "title": "Fearless",
+          "sanitized_title": "Fearless",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/07_Fearless.md"
+        },
+        {
+          "number": 8,
+          "title": "Fifteen",
+          "sanitized_title": "Fifteen",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/08_Fifteen.md"
+        },
+        {
+          "number": 9,
+          "title": "Love Story",
+          "sanitized_title": "Love_Story",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/09_Love_Story.md"
+        },
+        {
+          "number": 10,
+          "title": "Hey Stephen",
+          "sanitized_title": "Hey_Stephen",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/10_Hey_Stephen.md"
+        },
+        {
+          "number": 11,
+          "title": "White Horse",
+          "sanitized_title": "White_Horse",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/11_White_Horse.md"
+        },
+        {
+          "number": 12,
+          "title": "You Belong With Me",
+          "sanitized_title": "You_Belong_With_Me",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/12_You_Belong_With_Me.md"
+        },
+        {
+          "number": 13,
+          "title": "Breathe",
+          "sanitized_title": "Breathe",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/13_Breathe.md"
+        },
+        {
+          "number": 14,
+          "title": "Tell Me Why",
+          "sanitized_title": "Tell_Me_Why",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/14_Tell_Me_Why.md"
+        },
+        {
+          "number": 15,
+          "title": "You're Not Sorry",
+          "sanitized_title": "You-re_Not_Sorry",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/15_You-re_Not_Sorry.md"
+        },
+        {
+          "number": 16,
+          "title": "The Way I Loved You",
+          "sanitized_title": "The_Way_I_Loved_You",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/16_The_Way_I_Loved_You.md"
+        },
+        {
+          "number": 17,
+          "title": "Forever & Always",
+          "sanitized_title": "Forever_-_Always",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/17_Forever_-_Always.md"
+        },
+        {
+          "number": 18,
+          "title": "The Best Day",
+          "sanitized_title": "The_Best_Day",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/18_The_Best_Day.md"
+        },
+        {
+          "number": 19,
+          "title": "Change",
+          "sanitized_title": "Change",
+          "file_path": "lyrics/YEAR=2008/ALBUM=Fearless/19_Change.md"
+        }
+      ]
+    },
+    {
+      "title": "Speak Now",
+      "year": "2010",
+      "sanitized_title": "Speak_Now",
+      "track_count": 17,
+      "folder_path": "lyrics/YEAR=2010/ALBUM=Speak_Now",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Mine",
+          "sanitized_title": "Mine",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/01_Mine.md"
+        },
+        {
+          "number": 2,
+          "title": "Sparks Fly",
+          "sanitized_title": "Sparks_Fly",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/02_Sparks_Fly.md"
+        },
+        {
+          "number": 3,
+          "title": "Back To December",
+          "sanitized_title": "Back_To_December",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/03_Back_To_December.md"
+        },
+        {
+          "number": 4,
+          "title": "Speak Now",
+          "sanitized_title": "Speak_Now",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/04_Speak_Now.md"
+        },
+        {
+          "number": 5,
+          "title": "Dear John",
+          "sanitized_title": "Dear_John",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/05_Dear_John.md"
+        },
+        {
+          "number": 6,
+          "title": "Mean",
+          "sanitized_title": "Mean",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/06_Mean.md"
+        },
+        {
+          "number": 7,
+          "title": "The Story Of Us",
+          "sanitized_title": "The_Story_Of_Us",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/07_The_Story_Of_Us.md"
+        },
+        {
+          "number": 8,
+          "title": "Never Grow Up",
+          "sanitized_title": "Never_Grow_Up",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/08_Never_Grow_Up.md"
+        },
+        {
+          "number": 9,
+          "title": "Enchanted",
+          "sanitized_title": "Enchanted",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/09_Enchanted.md"
+        },
+        {
+          "number": 10,
+          "title": "Better Than Revenge",
+          "sanitized_title": "Better_Than_Revenge",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/10_Better_Than_Revenge.md"
+        },
+        {
+          "number": 11,
+          "title": "Innocent",
+          "sanitized_title": "Innocent",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/11_Innocent.md"
+        },
+        {
+          "number": 12,
+          "title": "Haunted",
+          "sanitized_title": "Haunted",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/12_Haunted.md"
+        },
+        {
+          "number": 13,
+          "title": "Last Kiss",
+          "sanitized_title": "Last_Kiss",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/13_Last_Kiss.md"
+        },
+        {
+          "number": 14,
+          "title": "Long Live",
+          "sanitized_title": "Long_Live",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/14_Long_Live.md"
+        },
+        {
+          "number": 15,
+          "title": "Ours",
+          "sanitized_title": "Ours",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/15_Ours.md"
+        },
+        {
+          "number": 16,
+          "title": "If This Was A Movie",
+          "sanitized_title": "If_This_Was_A_Movie",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/16_If_This_Was_A_Movie.md"
+        },
+        {
+          "number": 17,
+          "title": "Superman",
+          "sanitized_title": "Superman",
+          "file_path": "lyrics/YEAR=2010/ALBUM=Speak_Now/17_Superman.md"
+        }
+      ]
+    },
+    {
+      "title": "Red",
+      "year": "2012",
+      "sanitized_title": "Red",
+      "track_count": 19,
+      "folder_path": "lyrics/YEAR=2012/ALBUM=Red",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "State Of Grace",
+          "sanitized_title": "State_Of_Grace",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/01_State_Of_Grace.md"
+        },
+        {
+          "number": 2,
+          "title": "Red",
+          "sanitized_title": "Red",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/02_Red.md"
+        },
+        {
+          "number": 3,
+          "title": "Treacherous",
+          "sanitized_title": "Treacherous",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/03_Treacherous.md"
+        },
+        {
+          "number": 4,
+          "title": "I Knew You Were Trouble",
+          "sanitized_title": "I_Knew_You_Were_Trouble",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/04_I_Knew_You_Were_Trouble.md"
+        },
+        {
+          "number": 5,
+          "title": "All Too Well",
+          "sanitized_title": "All_Too_Well",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/05_All_Too_Well.md"
+        },
+        {
+          "number": 6,
+          "title": "22",
+          "sanitized_title": "22",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/06_22.md"
+        },
+        {
+          "number": 7,
+          "title": "I Almost Do",
+          "sanitized_title": "I_Almost_Do",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/07_I_Almost_Do.md"
+        },
+        {
+          "number": 8,
+          "title": "We Are Never Ever Getting Back Together",
+          "sanitized_title": "We_Are_Never_Ever_Getting_Back_Together",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/08_We_Are_Never_Ever_Getting_Back_Together.md"
+        },
+        {
+          "number": 9,
+          "title": "Stay Stay Stay",
+          "sanitized_title": "Stay_Stay_Stay",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/09_Stay_Stay_Stay.md"
+        },
+        {
+          "number": 10,
+          "title": "The Last Time",
+          "sanitized_title": "The_Last_Time",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/10_The_Last_Time.md"
+        },
+        {
+          "number": 11,
+          "title": "Holy Ground",
+          "sanitized_title": "Holy_Ground",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/11_Holy_Ground.md"
+        },
+        {
+          "number": 12,
+          "title": "Sad Beautiful Tragic",
+          "sanitized_title": "Sad_Beautiful_Tragic",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/12_Sad_Beautiful_Tragic.md"
+        },
+        {
+          "number": 13,
+          "title": "The Lucky One",
+          "sanitized_title": "The_Lucky_One",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/13_The_Lucky_One.md"
+        },
+        {
+          "number": 14,
+          "title": "Everything Has Changed",
+          "sanitized_title": "Everything_Has_Changed",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/14_Everything_Has_Changed.md"
+        },
+        {
+          "number": 15,
+          "title": "Starlight",
+          "sanitized_title": "Starlight",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/15_Starlight.md"
+        },
+        {
+          "number": 16,
+          "title": "Begin Again",
+          "sanitized_title": "Begin_Again",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/16_Begin_Again.md"
+        },
+        {
+          "number": 17,
+          "title": "The Moment I Knew",
+          "sanitized_title": "The_Moment_I_Knew",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/17_The_Moment_I_Knew.md"
+        },
+        {
+          "number": 18,
+          "title": "Come Back... Be Here",
+          "sanitized_title": "Come_Back-_Be_Here",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/18_Come_Back-_Be_Here.md"
+        },
+        {
+          "number": 19,
+          "title": "Girl At Home",
+          "sanitized_title": "Girl_At_Home",
+          "file_path": "lyrics/YEAR=2012/ALBUM=Red/19_Girl_At_Home.md"
+        }
+      ]
+    },
+    {
+      "title": "1989",
+      "year": "2014",
+      "sanitized_title": "1989",
+      "track_count": 16,
+      "folder_path": "lyrics/YEAR=2014/ALBUM=1989",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Welcome To New York",
+          "sanitized_title": "Welcome_To_New_York",
+          "file_path": "lyrics/YEAR=2014/ALBUM=1989/01_Welcome_To_New_York.md"
+        },
+        {
+          "number": 2,
+          "title": "Blank Space",
+          "sanitized_title": "Blank_Space",
+          "file_path": "lyrics/YEAR=2014/ALBUM=1989/02_Blank_Space.md"
+        },
+        {
+          "number": 3,
+          "title": "Style",
+          "sanitized_title": "Style",
+          "file_path": "lyrics/YEAR=2014/ALBUM=1989/03_Style.md"
+        },
+        {
+          "number": 4,
+          "title": "Out Of The Woods",
+          "sanitized_title": "Out_Of_The_Woods",
+          "file_path": "lyrics/YEAR=2014/ALBUM=1989/04_Out_Of_The_Woods.md"
+        },
+        {
+          "number": 5,
+          "title": "All You Had To Do Was Stay",
+          "sanitized_title": "All_You_Had_To_Do_Was_Stay",
+          "file_path": "lyrics/YEAR=2014/ALBUM=1989/05_All_You_Had_To_Do_Was_Stay.md"
+        },
+        {
+          "number": 6,
+          "title": "Shake It Off",
+          "sanitized_title": "Shake_It_Off",
+          "file_path": "lyrics/YEAR=2014/ALBUM=1989/06_Shake_It_Off.md"
+        },
+        {
+          "number": 7,
+          "title": "I Wish You Would",
+          "sanitized_title": "I_Wish_You_Would",
+          "file_path": "lyrics/YEAR=2014/ALBUM=1989/07_I_Wish_You_Would.md"
+        },
+        {
+          "number": 8,
+          "title": "Bad Blood",
+          "sanitized_title": "Bad_Blood",
+          "file_path": "lyrics/YEAR=2014/ALBUM=1989/08_Bad_Blood.md"
+        },
+        {
+          "number": 9,
+          "title": "Wildest Dreams",
+          "sanitized_title": "Wildest_Dreams",
+          "file_path": "lyrics/YEAR=2014/ALBUM=1989/09_Wildest_Dreams.md"
+        },
+        {
+          "number": 10,
+          "title": "How You Get The Girl",
+          "sanitized_title": "How_You_Get_The_Girl",
+          "file_path": "lyrics/YEAR=2014/ALBUM=1989/10_How_You_Get_The_Girl.md"
+        },
+        {
+          "number": 11,
+          "title": "This Love",
+          "sanitized_title": "This_Love",
+          "file_path": "lyrics/YEAR=2014/ALBUM=1989/11_This_Love.md"
+        },
+        {
+          "number": 12,
+          "title": "I Know Places",
+          "sanitized_title": "I_Know_Places",
+          "file_path": "lyrics/YEAR=2014/ALBUM=1989/12_I_Know_Places.md"
+        },
+        {
+          "number": 13,
+          "title": "Clean",
+          "sanitized_title": "Clean",
+          "file_path": "lyrics/YEAR=2014/ALBUM=1989/13_Clean.md"
+        },
+        {
+          "number": 14,
+          "title": "Wonderland",
+          "sanitized_title": "Wonderland",
+          "file_path": "lyrics/YEAR=2014/ALBUM=1989/14_Wonderland.md"
+        },
+        {
+          "number": 15,
+          "title": "You Are In Love",
+          "sanitized_title": "You_Are_In_Love",
+          "file_path": "lyrics/YEAR=2014/ALBUM=1989/15_You_Are_In_Love.md"
+        },
+        {
+          "number": 16,
+          "title": "New Romantics",
+          "sanitized_title": "New_Romantics",
+          "file_path": "lyrics/YEAR=2014/ALBUM=1989/16_New_Romantics.md"
+        }
+      ]
+    },
+    {
+      "title": "Reputation",
+      "year": "2017",
+      "sanitized_title": "Reputation",
+      "track_count": 15,
+      "folder_path": "lyrics/YEAR=2017/ALBUM=Reputation",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "...Ready For It?",
+          "sanitized_title": "Ready_For_It",
+          "file_path": "lyrics/YEAR=2017/ALBUM=Reputation/01_Ready_For_It.md"
+        },
+        {
+          "number": 2,
+          "title": "End Game",
+          "sanitized_title": "End_Game",
+          "file_path": "lyrics/YEAR=2017/ALBUM=Reputation/02_End_Game.md"
+        },
+        {
+          "number": 3,
+          "title": "I Did Something Bad",
+          "sanitized_title": "I_Did_Something_Bad",
+          "file_path": "lyrics/YEAR=2017/ALBUM=Reputation/03_I_Did_Something_Bad.md"
+        },
+        {
+          "number": 4,
+          "title": "Don't Blame Me",
+          "sanitized_title": "Don-t_Blame_Me",
+          "file_path": "lyrics/YEAR=2017/ALBUM=Reputation/04_Don-t_Blame_Me.md"
+        },
+        {
+          "number": 5,
+          "title": "Delicate",
+          "sanitized_title": "Delicate",
+          "file_path": "lyrics/YEAR=2017/ALBUM=Reputation/05_Delicate.md"
+        },
+        {
+          "number": 6,
+          "title": "Look What You Made Me Do",
+          "sanitized_title": "Look_What_You_Made_Me_Do",
+          "file_path": "lyrics/YEAR=2017/ALBUM=Reputation/06_Look_What_You_Made_Me_Do.md"
+        },
+        {
+          "number": 7,
+          "title": "So It Goes...",
+          "sanitized_title": "So_It_Goes",
+          "file_path": "lyrics/YEAR=2017/ALBUM=Reputation/07_So_It_Goes.md"
+        },
+        {
+          "number": 8,
+          "title": "Gorgeous",
+          "sanitized_title": "Gorgeous",
+          "file_path": "lyrics/YEAR=2017/ALBUM=Reputation/08_Gorgeous.md"
+        },
+        {
+          "number": 9,
+          "title": "Getaway Car",
+          "sanitized_title": "Getaway_Car",
+          "file_path": "lyrics/YEAR=2017/ALBUM=Reputation/09_Getaway_Car.md"
+        },
+        {
+          "number": 10,
+          "title": "King Of My Heart",
+          "sanitized_title": "King_Of_My_Heart",
+          "file_path": "lyrics/YEAR=2017/ALBUM=Reputation/10_King_Of_My_Heart.md"
+        },
+        {
+          "number": 11,
+          "title": "Dancing With Our Hands Tied",
+          "sanitized_title": "Dancing_With_Our_Hands_Tied",
+          "file_path": "lyrics/YEAR=2017/ALBUM=Reputation/11_Dancing_With_Our_Hands_Tied.md"
+        },
+        {
+          "number": 12,
+          "title": "Dress",
+          "sanitized_title": "Dress",
+          "file_path": "lyrics/YEAR=2017/ALBUM=Reputation/12_Dress.md"
+        },
+        {
+          "number": 13,
+          "title": "This Is Why We Can't Have Nice Things",
+          "sanitized_title": "This_Is_Why_We_Can-t_Have_Nice_Things",
+          "file_path": "lyrics/YEAR=2017/ALBUM=Reputation/13_This_Is_Why_We_Can-t_Have_Nice_Things.md"
+        },
+        {
+          "number": 14,
+          "title": "Call It What You Want",
+          "sanitized_title": "Call_It_What_You_Want",
+          "file_path": "lyrics/YEAR=2017/ALBUM=Reputation/14_Call_It_What_You_Want.md"
+        },
+        {
+          "number": 15,
+          "title": "New Year's Day",
+          "sanitized_title": "New_Year-s_Day",
+          "file_path": "lyrics/YEAR=2017/ALBUM=Reputation/15_New_Year-s_Day.md"
+        }
+      ]
+    },
+    {
+      "title": "Lover",
+      "year": "2019",
+      "sanitized_title": "Lover",
+      "track_count": 18,
+      "folder_path": "lyrics/YEAR=2019/ALBUM=Lover",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "I Forgot That You Existed",
+          "sanitized_title": "I_Forgot_That_You_Existed",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/01_I_Forgot_That_You_Existed.md"
+        },
+        {
+          "number": 2,
+          "title": "Cruel Summer",
+          "sanitized_title": "Cruel_Summer",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/02_Cruel_Summer.md"
+        },
+        {
+          "number": 3,
+          "title": "Lover",
+          "sanitized_title": "Lover",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/03_Lover.md"
+        },
+        {
+          "number": 4,
+          "title": "The Man",
+          "sanitized_title": "The_Man",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/04_The_Man.md"
+        },
+        {
+          "number": 5,
+          "title": "The Archer",
+          "sanitized_title": "The_Archer",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/05_The_Archer.md"
+        },
+        {
+          "number": 6,
+          "title": "I Think He Knows",
+          "sanitized_title": "I_Think_He_Knows",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/06_I_Think_He_Knows.md"
+        },
+        {
+          "number": 7,
+          "title": "Miss Americana & The Heartbreak Prince",
+          "sanitized_title": "Miss_Americana_-_The_Heartbreak_Prince",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/07_Miss_Americana_-_The_Heartbreak_Prince.md"
+        },
+        {
+          "number": 8,
+          "title": "Paper Rings",
+          "sanitized_title": "Paper_Rings",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/08_Paper_Rings.md"
+        },
+        {
+          "number": 9,
+          "title": "Cornelia Street",
+          "sanitized_title": "Cornelia_Street",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/09_Cornelia_Street.md"
+        },
+        {
+          "number": 10,
+          "title": "Death By A Thousand Cuts",
+          "sanitized_title": "Death_By_A_Thousand_Cuts",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/10_Death_By_A_Thousand_Cuts.md"
+        },
+        {
+          "number": 11,
+          "title": "London Boy",
+          "sanitized_title": "London_Boy",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/11_London_Boy.md"
+        },
+        {
+          "number": 12,
+          "title": "Soon You'll Get Better",
+          "sanitized_title": "Soon_You-ll_Get_Better",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/12_Soon_You-ll_Get_Better.md"
+        },
+        {
+          "number": 13,
+          "title": "False God",
+          "sanitized_title": "False_God",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/13_False_God.md"
+        },
+        {
+          "number": 14,
+          "title": "You Need To Calm Down",
+          "sanitized_title": "You_Need_To_Calm_Down",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/14_You_Need_To_Calm_Down.md"
+        },
+        {
+          "number": 15,
+          "title": "Afterglow",
+          "sanitized_title": "Afterglow",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/15_Afterglow.md"
+        },
+        {
+          "number": 16,
+          "title": "ME!",
+          "sanitized_title": "ME",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/16_ME.md"
+        },
+        {
+          "number": 17,
+          "title": "It's Nice To Have A Friend",
+          "sanitized_title": "It-s_Nice_To_Have_A_Friend",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/17_It-s_Nice_To_Have_A_Friend.md"
+        },
+        {
+          "number": 18,
+          "title": "Daylight",
+          "sanitized_title": "Daylight",
+          "file_path": "lyrics/YEAR=2019/ALBUM=Lover/18_Daylight.md"
+        }
+      ]
+    },
+    {
+      "title": "folklore",
+      "year": "2020",
+      "sanitized_title": "folklore",
+      "track_count": 17,
+      "folder_path": "lyrics/YEAR=2020/ALBUM=folklore",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "the 1",
+          "sanitized_title": "the_1",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/01_the_1.md"
+        },
+        {
+          "number": 2,
+          "title": "cardigan",
+          "sanitized_title": "cardigan",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/02_cardigan.md"
+        },
+        {
+          "number": 3,
+          "title": "the last great american dynasty",
+          "sanitized_title": "the_last_great_american_dynasty",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/03_the_last_great_american_dynasty.md"
+        },
+        {
+          "number": 4,
+          "title": "exile",
+          "sanitized_title": "exile",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/04_exile.md"
+        },
+        {
+          "number": 5,
+          "title": "my tears ricochet",
+          "sanitized_title": "my_tears_ricochet",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/05_my_tears_ricochet.md"
+        },
+        {
+          "number": 6,
+          "title": "mirrorball",
+          "sanitized_title": "mirrorball",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/06_mirrorball.md"
+        },
+        {
+          "number": 7,
+          "title": "seven",
+          "sanitized_title": "seven",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/07_seven.md"
+        },
+        {
+          "number": 8,
+          "title": "august",
+          "sanitized_title": "august",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/08_august.md"
+        },
+        {
+          "number": 9,
+          "title": "this is me trying",
+          "sanitized_title": "this_is_me_trying",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/09_this_is_me_trying.md"
+        },
+        {
+          "number": 10,
+          "title": "illicit affairs",
+          "sanitized_title": "illicit_affairs",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/10_illicit_affairs.md"
+        },
+        {
+          "number": 11,
+          "title": "invisible string",
+          "sanitized_title": "invisible_string",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/11_invisible_string.md"
+        },
+        {
+          "number": 12,
+          "title": "mad woman",
+          "sanitized_title": "mad_woman",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/12_mad_woman.md"
+        },
+        {
+          "number": 13,
+          "title": "epiphany",
+          "sanitized_title": "epiphany",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/13_epiphany.md"
+        },
+        {
+          "number": 14,
+          "title": "betty",
+          "sanitized_title": "betty",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/14_betty.md"
+        },
+        {
+          "number": 15,
+          "title": "peace",
+          "sanitized_title": "peace",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/15_peace.md"
+        },
+        {
+          "number": 16,
+          "title": "hoax",
+          "sanitized_title": "hoax",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/16_hoax.md"
+        },
+        {
+          "number": 17,
+          "title": "the lakes",
+          "sanitized_title": "the_lakes",
+          "file_path": "lyrics/YEAR=2020/ALBUM=folklore/17_the_lakes.md"
+        }
+      ]
+    },
+    {
+      "title": "evermore",
+      "year": "2020",
+      "sanitized_title": "evermore",
+      "track_count": 17,
+      "folder_path": "lyrics/YEAR=2020/ALBUM=evermore",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "willow",
+          "sanitized_title": "willow",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/01_willow.md"
+        },
+        {
+          "number": 2,
+          "title": "champagne problems",
+          "sanitized_title": "champagne_problems",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/02_champagne_problems.md"
+        },
+        {
+          "number": 3,
+          "title": "gold rush",
+          "sanitized_title": "gold_rush",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/03_gold_rush.md"
+        },
+        {
+          "number": 4,
+          "title": "'tis the damn season",
+          "sanitized_title": "tis_the_damn_season",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/04_tis_the_damn_season.md"
+        },
+        {
+          "number": 5,
+          "title": "tolerate it",
+          "sanitized_title": "tolerate_it",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/05_tolerate_it.md"
+        },
+        {
+          "number": 6,
+          "title": "no body, no crime",
+          "sanitized_title": "no_body-_no_crime",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/06_no_body-_no_crime.md"
+        },
+        {
+          "number": 7,
+          "title": "happiness",
+          "sanitized_title": "happiness",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/07_happiness.md"
+        },
+        {
+          "number": 8,
+          "title": "dorothea",
+          "sanitized_title": "dorothea",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/08_dorothea.md"
+        },
+        {
+          "number": 9,
+          "title": "coney island",
+          "sanitized_title": "coney_island",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/09_coney_island.md"
+        },
+        {
+          "number": 10,
+          "title": "ivy",
+          "sanitized_title": "ivy",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/10_ivy.md"
+        },
+        {
+          "number": 11,
+          "title": "cowboy like me",
+          "sanitized_title": "cowboy_like_me",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/11_cowboy_like_me.md"
+        },
+        {
+          "number": 12,
+          "title": "long story short",
+          "sanitized_title": "long_story_short",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/12_long_story_short.md"
+        },
+        {
+          "number": 13,
+          "title": "marjorie",
+          "sanitized_title": "marjorie",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/13_marjorie.md"
+        },
+        {
+          "number": 14,
+          "title": "closure",
+          "sanitized_title": "closure",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/14_closure.md"
+        },
+        {
+          "number": 15,
+          "title": "evermore",
+          "sanitized_title": "evermore",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/15_evermore.md"
+        },
+        {
+          "number": 16,
+          "title": "right where you left me",
+          "sanitized_title": "right_where_you_left_me",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/16_right_where_you_left_me.md"
+        },
+        {
+          "number": 17,
+          "title": "it's time to go",
+          "sanitized_title": "it-s_time_to_go",
+          "file_path": "lyrics/YEAR=2020/ALBUM=evermore/17_it-s_time_to_go.md"
+        }
+      ]
+    },
+    {
+      "title": "Midnights",
+      "year": "2022",
+      "sanitized_title": "Midnights",
+      "track_count": 27,
+      "folder_path": "lyrics/YEAR=2022/ALBUM=Midnights",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Lavender Haze",
+          "sanitized_title": "Lavender_Haze",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/01_Lavender_Haze.md"
+        },
+        {
+          "number": 2,
+          "title": "Maroon",
+          "sanitized_title": "Maroon",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/02_Maroon.md"
+        },
+        {
+          "number": 3,
+          "title": "Anti-Hero",
+          "sanitized_title": "Anti-Hero",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/03_Anti-Hero.md"
+        },
+        {
+          "number": 4,
+          "title": "Snow On The Beach",
+          "sanitized_title": "Snow_On_The_Beach",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/04_Snow_On_The_Beach.md"
+        },
+        {
+          "number": 5,
+          "title": "You're On Your Own, Kid",
+          "sanitized_title": "You-re_On_Your_Own-_Kid",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/05_You-re_On_Your_Own-_Kid.md"
+        },
+        {
+          "number": 6,
+          "title": "Midnight Rain",
+          "sanitized_title": "Midnight_Rain",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/06_Midnight_Rain.md"
+        },
+        {
+          "number": 7,
+          "title": "Question...?",
+          "sanitized_title": "Question",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/07_Question.md"
+        },
+        {
+          "number": 8,
+          "title": "Vigilante Shit",
+          "sanitized_title": "Vigilante_Shit",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/08_Vigilante_Shit.md"
+        },
+        {
+          "number": 9,
+          "title": "Bejeweled",
+          "sanitized_title": "Bejeweled",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/09_Bejeweled.md"
+        },
+        {
+          "number": 10,
+          "title": "Labyrinth",
+          "sanitized_title": "Labyrinth",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/10_Labyrinth.md"
+        },
+        {
+          "number": 11,
+          "title": "Karma",
+          "sanitized_title": "Karma",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/11_Karma.md"
+        },
+        {
+          "number": 12,
+          "title": "Sweet Nothing",
+          "sanitized_title": "Sweet_Nothing",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/12_Sweet_Nothing.md"
+        },
+        {
+          "number": 13,
+          "title": "Mastermind",
+          "sanitized_title": "Mastermind",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/13_Mastermind.md"
+        },
+        {
+          "number": 14,
+          "title": "Hits Different",
+          "sanitized_title": "Hits_Different",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/14_Hits_Different.md"
+        },
+        {
+          "number": 15,
+          "title": "You're On Your Own, Kid (Strings Remix)",
+          "sanitized_title": "You-re_On_Your_Own-_Kid_(Strings_Remix)",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/15_You-re_On_Your_Own-_Kid_(Strings_Remix).md"
+        },
+        {
+          "number": 16,
+          "title": "Sweet Nothing (Piano Remix)",
+          "sanitized_title": "Sweet_Nothing_(Piano_Remix)",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/16_Sweet_Nothing_(Piano_Remix).md"
+        },
+        {
+          "number": 17,
+          "title": "Meet Me At Midnight",
+          "sanitized_title": "Meet_Me_At_Midnight",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/17_Meet_Me_At_Midnight.md"
+        },
+        {
+          "number": 18,
+          "title": "The Great War",
+          "sanitized_title": "The_Great_War",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/18_The_Great_War.md"
+        },
+        {
+          "number": 19,
+          "title": "Bigger Than The Whole Sky",
+          "sanitized_title": "Bigger_Than_The_Whole_Sky",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/19_Bigger_Than_The_Whole_Sky.md"
+        },
+        {
+          "number": 20,
+          "title": "Paris",
+          "sanitized_title": "Paris",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/20_Paris.md"
+        },
+        {
+          "number": 21,
+          "title": "High Infidelity",
+          "sanitized_title": "High_Infidelity",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/21_High_Infidelity.md"
+        },
+        {
+          "number": 22,
+          "title": "Glitch",
+          "sanitized_title": "Glitch",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/22_Glitch.md"
+        },
+        {
+          "number": 23,
+          "title": "Would've, Could've, Should've",
+          "sanitized_title": "Would-ve-_Could-ve-_Should-ve",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/23_Would-ve-_Could-ve-_Should-ve.md"
+        },
+        {
+          "number": 24,
+          "title": "Dear Reader",
+          "sanitized_title": "Dear_Reader",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/24_Dear_Reader.md"
+        },
+        {
+          "number": 25,
+          "title": "Snow On The Beach (Remix)",
+          "sanitized_title": "Snow_On_The_Beach_(Remix)",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/25_Snow_On_The_Beach_(Remix).md"
+        },
+        {
+          "number": 26,
+          "title": "Karma (Remix)",
+          "sanitized_title": "Karma_(Remix)",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/26_Karma_(Remix).md"
+        },
+        {
+          "number": 27,
+          "title": "You're Losing Me (From The Vault)",
+          "sanitized_title": "You-re_Losing_Me_(From_The_Vault)",
+          "file_path": "lyrics/YEAR=2022/ALBUM=Midnights/27_You-re_Losing_Me_(From_The_Vault).md"
+        }
+      ]
+    },
+    {
+      "title": "THE TORTURED POETS DEPARTMENT",
+      "year": "2024",
+      "sanitized_title": "THE_TORTURED_POETS_DEPARTMENT",
+      "track_count": 31,
+      "folder_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT",
+      "tracks": [
+        {
+          "number": 1,
+          "title": "Fortnight",
+          "sanitized_title": "Fortnight",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/01_Fortnight.md"
+        },
+        {
+          "number": 2,
+          "title": "The Tortured Poets Department",
+          "sanitized_title": "The_Tortured_Poets_Department",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/02_The_Tortured_Poets_Department.md"
+        },
+        {
+          "number": 3,
+          "title": "My Boy Only Breaks His Favorite Toys",
+          "sanitized_title": "My_Boy_Only_Breaks_His_Favorite_Toys",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/03_My_Boy_Only_Breaks_His_Favorite_Toys.md"
+        },
+        {
+          "number": 4,
+          "title": "Down Bad",
+          "sanitized_title": "Down_Bad",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/04_Down_Bad.md"
+        },
+        {
+          "number": 5,
+          "title": "So Long, London",
+          "sanitized_title": "So_Long-_London",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/05_So_Long-_London.md"
+        },
+        {
+          "number": 6,
+          "title": "But Daddy I Love Him",
+          "sanitized_title": "But_Daddy_I_Love_Him",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/06_But_Daddy_I_Love_Him.md"
+        },
+        {
+          "number": 7,
+          "title": "Fresh Out The Slammer",
+          "sanitized_title": "Fresh_Out_The_Slammer",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/07_Fresh_Out_The_Slammer.md"
+        },
+        {
+          "number": 8,
+          "title": "Florida!!!",
+          "sanitized_title": "Florida",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/08_Florida.md"
+        },
+        {
+          "number": 9,
+          "title": "Guilty As Sin?",
+          "sanitized_title": "Guilty_As_Sin",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/09_Guilty_As_Sin.md"
+        },
+        {
+          "number": 10,
+          "title": "Who's Afraid Of Little Old Me?",
+          "sanitized_title": "Who-s_Afraid_Of_Little_Old_Me",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/10_Who-s_Afraid_Of_Little_Old_Me.md"
+        },
+        {
+          "number": 11,
+          "title": "I Can Fix Him (No Really I Can)",
+          "sanitized_title": "I_Can_Fix_Him_(No_Really_I_Can)",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/11_I_Can_Fix_Him_(No_Really_I_Can).md"
+        },
+        {
+          "number": 12,
+          "title": "loml",
+          "sanitized_title": "loml",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/12_loml.md"
+        },
+        {
+          "number": 13,
+          "title": "I Can Do It With A Broken Heart",
+          "sanitized_title": "I_Can_Do_It_With_A_Broken_Heart",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/13_I_Can_Do_It_With_A_Broken_Heart.md"
+        },
+        {
+          "number": 14,
+          "title": "The Smallest Man Who Ever Lived",
+          "sanitized_title": "The_Smallest_Man_Who_Ever_Lived",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/14_The_Smallest_Man_Who_Ever_Lived.md"
+        },
+        {
+          "number": 15,
+          "title": "The Alchemy",
+          "sanitized_title": "The_Alchemy",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/15_The_Alchemy.md"
+        },
+        {
+          "number": 16,
+          "title": "Clara Bow",
+          "sanitized_title": "Clara_Bow",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/16_Clara_Bow.md"
+        },
+        {
+          "number": 17,
+          "title": "The Black Dog",
+          "sanitized_title": "The_Black_Dog",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/17_The_Black_Dog.md"
+        },
+        {
+          "number": 18,
+          "title": "imgonnagetyouback",
+          "sanitized_title": "imgonnagetyouback",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/18_imgonnagetyouback.md"
+        },
+        {
+          "number": 19,
+          "title": "The Albatross",
+          "sanitized_title": "The_Albatross",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/19_The_Albatross.md"
+        },
+        {
+          "number": 20,
+          "title": "Chloe or Sam or Sophia or Marcus",
+          "sanitized_title": "Chloe_or_Sam_or_Sophia_or_Marcus",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/20_Chloe_or_Sam_or_Sophia_or_Marcus.md"
+        },
+        {
+          "number": 21,
+          "title": "How Did It End?",
+          "sanitized_title": "How_Did_It_End",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/21_How_Did_It_End.md"
+        },
+        {
+          "number": 22,
+          "title": "So High School",
+          "sanitized_title": "So_High_School",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/22_So_High_School.md"
+        },
+        {
+          "number": 23,
+          "title": "I Hate It Here",
+          "sanitized_title": "I_Hate_It_Here",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/23_I_Hate_It_Here.md"
+        },
+        {
+          "number": 24,
+          "title": "thanK you aIMee",
+          "sanitized_title": "thanK_you_aIMee",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/24_thanK_you_aIMee.md"
+        },
+        {
+          "number": 25,
+          "title": "I Look in People's Windows",
+          "sanitized_title": "I_Look_in_People-s_Windows",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/25_I_Look_in_People-s_Windows.md"
+        },
+        {
+          "number": 26,
+          "title": "The Prophecy",
+          "sanitized_title": "The_Prophecy",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/26_The_Prophecy.md"
+        },
+        {
+          "number": 27,
+          "title": "Cassandra",
+          "sanitized_title": "Cassandra",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/27_Cassandra.md"
+        },
+        {
+          "number": 28,
+          "title": "Peter",
+          "sanitized_title": "Peter",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/28_Peter.md"
+        },
+        {
+          "number": 29,
+          "title": "The Bolter",
+          "sanitized_title": "The_Bolter",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/29_The_Bolter.md"
+        },
+        {
+          "number": 30,
+          "title": "Robin",
+          "sanitized_title": "Robin",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/30_Robin.md"
+        },
+        {
+          "number": 31,
+          "title": "The Manuscript",
+          "sanitized_title": "The_Manuscript",
+          "file_path": "lyrics/YEAR=2024/ALBUM=THE_TORTURED_POETS_DEPARTMENT/31_The_Manuscript.md"
+        }
+      ]
+    }
+  ]
+}

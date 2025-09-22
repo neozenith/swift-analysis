@@ -1,0 +1,61 @@
+/* Custom styles for Taylor Swift Lyrics Analysis */
+
+/* Loading spinner animation */
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+.animate-spin {
+    animation: spin 1s linear infinite;
+}
+
+/* Custom chart container styles */
+.chart-container {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Button active state override for Plotly interaction */
+button.chart-btn.active {
+    background: linear-gradient(to right, #ec4899, #8b5cf6);
+}
+
+/* Stat card hover effects */
+.stat-card {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.stat-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Legend color boxes */
+.legend-color {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* Smooth transitions for visibility changes */
+.transition-opacity {
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Override Plotly default styles for better integration */
+.js-plotly-plot .plotly .modebar {
+    background: transparent !important;
+}
+
+.js-plotly-plot .plotly .modebar-btn {
+    background: transparent !important;
+}
+
+.js-plotly-plot .plotly .modebar-btn:hover {
+    background: rgba(139, 92, 246, 0.1) !important;
+}
+
+/* Gradient text effect */
+.gradient-text {
+    background: linear-gradient(to right, #ec4899, #8b5cf6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

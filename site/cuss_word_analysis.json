@@ -1,0 +1,178 @@
+{
+  "2006 - Taylor Swift": {
+    "year": 2006,
+    "album": "Taylor Swift",
+    "total_songs": 14,
+    "word_counts": {
+      "whore": 0,
+      "damn": 1,
+      "goddamn": 0,
+      "hell": 1,
+      "bitch": 0,
+      "shit": 0,
+      "fuck": 0,
+      "dickhead": 0
+    },
+    "total_count": 2
+  },
+  "2008 - Fearless": {
+    "year": 2008,
+    "album": "Fearless",
+    "total_songs": 19,
+    "word_counts": {
+      "whore": 0,
+      "damn": 0,
+      "goddamn": 0,
+      "hell": 1,
+      "bitch": 0,
+      "shit": 0,
+      "fuck": 0,
+      "dickhead": 0
+    },
+    "total_count": 1
+  },
+  "2010 - Speak Now": {
+    "year": 2010,
+    "album": "Speak Now",
+    "total_songs": 17,
+    "word_counts": {
+      "whore": 0,
+      "damn": 0,
+      "goddamn": 0,
+      "hell": 0,
+      "bitch": 0,
+      "shit": 0,
+      "fuck": 0,
+      "dickhead": 0
+    },
+    "total_count": 0
+  },
+  "2012 - Red": {
+    "year": 2012,
+    "album": "Red",
+    "total_songs": 19,
+    "word_counts": {
+      "whore": 0,
+      "damn": 0,
+      "goddamn": 0,
+      "hell": 7,
+      "bitch": 0,
+      "shit": 0,
+      "fuck": 1,
+      "dickhead": 0
+    },
+    "total_count": 8
+  },
+  "2014 - 1989": {
+    "year": 2014,
+    "album": "1989",
+    "total_songs": 16,
+    "word_counts": {
+      "whore": 0,
+      "damn": 1,
+      "goddamn": 0,
+      "hell": 3,
+      "bitch": 0,
+      "shit": 0,
+      "fuck": 0,
+      "dickhead": 0
+    },
+    "total_count": 4
+  },
+  "2017 - Reputation": {
+    "year": 2017,
+    "album": "Reputation",
+    "total_songs": 15,
+    "word_counts": {
+      "whore": 0,
+      "damn": 2,
+      "goddamn": 0,
+      "hell": 0,
+      "bitch": 0,
+      "shit": 1,
+      "fuck": 0,
+      "dickhead": 0
+    },
+    "total_count": 3
+  },
+  "2019 - Lover": {
+    "year": 2019,
+    "album": "Lover",
+    "total_songs": 18,
+    "word_counts": {
+      "whore": 0,
+      "damn": 1,
+      "goddamn": 0,
+      "hell": 1,
+      "bitch": 0,
+      "shit": 0,
+      "fuck": 0,
+      "dickhead": 0
+    },
+    "total_count": 2
+  },
+  "2020 - evermore": {
+    "year": 2020,
+    "album": "evermore",
+    "total_songs": 17,
+    "word_counts": {
+      "whore": 0,
+      "damn": 14,
+      "goddamn": 6,
+      "hell": 0,
+      "bitch": 0,
+      "shit": 5,
+      "fuck": 2,
+      "dickhead": 0
+    },
+    "total_count": 27
+  },
+  "2020 - folklore": {
+    "year": 2020,
+    "album": "folklore",
+    "total_songs": 17,
+    "word_counts": {
+      "whore": 0,
+      "damn": 1,
+      "goddamn": 0,
+      "hell": 2,
+      "bitch": 1,
+      "shit": 3,
+      "fuck": 3,
+      "dickhead": 0
+    },
+    "total_count": 10
+  },
+  "2022 - Midnights": {
+    "year": 2022,
+    "album": "Midnights",
+    "total_songs": 27,
+    "word_counts": {
+      "whore": 0,
+      "damn": 15,
+      "goddamn": 6,
+      "hell": 4,
+      "bitch": 0,
+      "shit": 17,
+      "fuck": 10,
+      "dickhead": 1
+    },
+    "total_count": 53
+  },
+  "2024 - THE TORTURED POETS DEPARTMENT": {
+    "year": 2024,
+    "album": "THE TORTURED POETS DEPARTMENT",
+    "total_songs": 31,
+    "word_counts": {
+      "whore": 2,
+      "damn": 2,
+      "goddamn": 0,
+      "hell": 11,
+      "bitch": 5,
+      "shit": 6,
+      "fuck": 30,
+      "dickhead": 0
+    },
+    "total_count": 56
+  }
+}

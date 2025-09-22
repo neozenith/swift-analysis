@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift Lyrics - Word Analysis</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Plotly -->
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gradient-to-br from-purple-600 via-pink-500 to-red-500 min-h-screen p-4 md:p-8">
+    <div class="max-w-7xl mx-auto">
+        <!-- Header -->
+        <div class="bg-white/95 backdrop-blur rounded-3xl shadow-2xl p-8 mb-8">
+            <h1 class="text-5xl font-bold text-center mb-3 gradient-text">
+                Taylor Swift Lyrics Analysis
+            </h1>
+            <p class="text-center text-gray-600 text-xl">
+                Tracking Word Usage Across Albums (2006-2024)
+            </p>
+        </div>
+
+        <!-- Loading State -->
+        <div id="loading" class="bg-white/95 backdrop-blur rounded-3xl shadow-2xl p-12 text-center">
+            <div class="inline-flex items-center">
+                <svg class="animate-spin h-8 w-8 mr-3 text-purple-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                    <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                    <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                </svg>
+                <span class="text-xl text-gray-700">Loading data...</span>
+            </div>
+        </div>
+
+        <!-- Error State -->
+        <div id="error" class="bg-red-50 border-2 border-red-200 rounded-3xl shadow-xl p-8 hidden">
+            <div class="flex items-center">
+                <svg class="h-6 w-6 text-red-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                </svg>
+                <p class="text-red-800 text-lg"></p>
+            </div>
+        </div>
+
+        <!-- Main Content Container -->
+        <div id="mainContent" class="hidden space-y-8">
+            <!-- Statistics Cards -->
+            <div id="stats" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"></div>
+
+            <!-- Controls -->
+            <div class="bg-white/95 backdrop-blur rounded-3xl shadow-xl p-6">
+                <div class="flex flex-wrap justify-center gap-4">
+                    <button onclick="showChart('stacked')" class="chart-btn px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                        Stacked Bar Chart
+                    </button>
+                    <button onclick="showChart('grouped')" class="chart-btn px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                        Grouped Bar Chart
+                    </button>
+                    <button onclick="showChart('line')" class="chart-btn px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                        Trends Over Time
+                    </button>
+                    <button onclick="showChart('heatmap')" class="chart-btn px-6 py-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold rounded-xl hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200">
+                        Heatmap
+                    </button>
+                </div>
+            </div>
+
+            <!-- Legend -->
+            <div class="bg-white/95 backdrop-blur rounded-3xl shadow-xl p-6">
+                <h3 class="text-center text-lg font-semibold text-gray-700 mb-4">Word Legend</h3>
+                <div id="legend" class="flex flex-wrap justify-center gap-4"></div>
+            </div>
+
+            <!-- Charts -->
+            <div class="space-y-8">
+                <div id="chart1" class="bg-white/95 backdrop-blur rounded-3xl shadow-xl p-6 chart-container"></div>
+                <div id="chart2" class="bg-white/95 backdrop-blur rounded-3xl shadow-xl p-6 chart-container hidden"></div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let globalData = null;
+        const words = ['whore', 'damn', 'goddamn', 'hell', 'bitch', 'shit', 'fuck', 'dickhead'];
+        const colors = {
+            'whore': '#FF6B6B',
+            'damn': '#4ECDC4',
+            'goddamn': '#45B7D1',
+            'hell': '#FFA07A',
+            'bitch': '#98D8C8',
+            'shit': '#F7DC6F',
+            'fuck': '#BB8FCE',
+            'dickhead': '#85C1E2'
+        };
+
+        async function loadData() {
+            try {
+                const response = await fetch('cuss_word_analysis.json');
+                if (!response.ok) {
+                    throw new Error('Failed to load data file');
+                }
+                globalData = await response.json();
+
+                // Hide loading, show main content
+                document.getElementById('loading').classList.add('hidden');
+                document.getElementById('mainContent').classList.remove('hidden');
+
+                processAndDisplay();
+            } catch (error) {
+                document.getElementById('loading').classList.add('hidden');
+                const errorEl = document.getElementById('error');
+                errorEl.classList.remove('hidden');
+                errorEl.querySelector('p').textContent =
+                    'Error loading data. Please ensure the analysis script has been run and the JSON file exists.';
+                console.error('Error:', error);
+            }
+        }
+
+        function processAndDisplay() {
+            // Calculate statistics
+            let totalWords = 0;
+            let mostUsedWord = '';
+            let maxWordCount = 0;
+            let albumWithMost = '';
+            let maxAlbumCount = 0;
+
+            const wordTotals = {};
+            words.forEach(word => wordTotals[word] = 0);
+
+            Object.entries(globalData).forEach(([album, data]) => {
+                const albumTotal = data.total_count;
+                totalWords += albumTotal;
+
+                if (albumTotal > maxAlbumCount) {
+                    maxAlbumCount = albumTotal;
+                    albumWithMost = album;
+                }
+
+                words.forEach(word => {
+                    const count = data.word_counts[word];
+                    wordTotals[word] += count;
+                    if (wordTotals[word] > maxWordCount) {
+                        maxWordCount = wordTotals[word];
+                        mostUsedWord = word;
+                    }
+                });
+            });
+
+            // Display stats
+            const statsDiv = document.getElementById('stats');
+            statsDiv.innerHTML = `
+                <div class="stat-card bg-gradient-to-br from-purple-600 to-pink-600 text-white p-6 rounded-2xl">
+                    <div class="text-4xl font-bold mb-2">${totalWords}</div>
+                    <div class="text-purple-100">Total Words Found</div>
+                </div>
+                <div class="stat-card bg-gradient-to-br from-pink-600 to-red-600 text-white p-6 rounded-2xl">
+                    <div class="text-4xl font-bold mb-2">${Object.keys(globalData).length}</div>
+                    <div class="text-pink-100">Albums Analyzed</div>
+                </div>
+                <div class="stat-card bg-gradient-to-br from-indigo-600 to-purple-600 text-white p-6 rounded-2xl">
+                    <div class="text-4xl font-bold mb-2">"${mostUsedWord}"</div>
+                    <div class="text-indigo-100">Most Used (${maxWordCount}×)</div>
+                </div>
+                <div class="stat-card bg-gradient-to-br from-red-600 to-orange-600 text-white p-6 rounded-2xl">
+                    <div class="text-3xl font-bold mb-2">${albumWithMost.split(' - ')[1]}</div>
+                    <div class="text-red-100">Most Explicit Album (${maxAlbumCount})</div>
+                </div>
+            `;
+
+            // Display legend
+            const legendDiv = document.getElementById('legend');
+            legendDiv.innerHTML = words.map(word => `
+                <div class="flex items-center gap-2">
+                    <div class="legend-color w-5 h-5 rounded" style="background: ${colors[word]}"></div>
+                    <span class="text-gray-700 font-medium">${word}</span>
+                </div>
+            `).join('');
+
+            // Show initial chart (bar chart as default)
+            showChart('grouped');
+        }
+
+        function showChart(type) {
+            // Update button states
+            document.querySelectorAll('.chart-btn').forEach(btn => btn.classList.remove('active'));
+            if (event && event.target) {
+                event.target.classList.add('active');
+            } else {
+                // Set the first button (grouped/bar chart) as active on initial load
+                document.querySelector('.chart-btn').classList.add('active');
+            }
+
+            const albums = Object.keys(globalData);
+            const albumLabels = albums.map(a => {
+                const parts = a.split(' - ');
+                return `${parts[1]} (${parts[0]})`;
+            });
+
+            const chart2Container = document.getElementById('chart2');
+
+            if (type === 'grouped') {
+                const traces = words.map(word => ({
+                    x: albumLabels,
+                    y: albums.map(album => globalData[album].word_counts[word]),
+                    name: word,
+                    type: 'bar',
+                    marker: { color: colors[word] }
+                }));
+
+                const layout = {
+                    title: {
+                        text: 'Word Usage by Album',
+                        font: { size: 24, color: '#1f2937' }
+                    },
+                    barmode: 'group',
+                    xaxis: {
+                        title: 'Album',
+                        tickangle: -45,
+                        tickfont: { size: 11 }
+                    },
+                    yaxis: { title: 'Count' },
+                    height: 500,
+                    margin: { b: 150 },
+                    paper_bgcolor: 'rgba(0,0,0,0)',
+                    plot_bgcolor: 'rgba(0,0,0,0)',
+                    font: { family: 'system-ui, -apple-system, sans-serif' }
+                };
+
+                Plotly.newPlot('chart1', traces, layout, {responsive: true});
+                chart2Container.classList.add('hidden');
+            }
+
+            else if (type === 'stacked') {
+                const traces = words.map(word => ({
+                    x: albumLabels,
+                    y: albums.map(album => globalData[album].word_counts[word]),
+                    name: word,
+                    type: 'bar',
+                    marker: { color: colors[word] }
+                }));
+
+                const layout = {
+                    title: {
+                        text: 'Word Usage by Album (Stacked)',
+                        font: { size: 24, color: '#1f2937' }
+                    },
+                    barmode: 'stack',
+                    xaxis: {
+                        title: 'Album',
+                        tickangle: -45,
+                        tickfont: { size: 11 }
+                    },
+                    yaxis: { title: 'Total Count' },
+                    height: 500,
+                    margin: { b: 150 },
+                    paper_bgcolor: 'rgba(0,0,0,0)',
+                    plot_bgcolor: 'rgba(0,0,0,0)',
+                    font: { family: 'system-ui, -apple-system, sans-serif' }
+                };
+
+                Plotly.newPlot('chart1', traces, layout, {responsive: true});
+                chart2Container.classList.add('hidden');
+            }
+
+            else if (type === 'line') {
+                const traces = words.map(word => ({
+                    x: albums.map(a => globalData[a].year),
+                    y: albums.map(album => globalData[album].word_counts[word]),
+                    mode: 'lines+markers',
+                    name: word,
+                    line: { color: colors[word], width: 2 },
+                    marker: { size: 8 }
+                }));
+
+                const layout = {
+                    title: {
+                        text: 'Word Usage Trends Over Time',
+                        font: { size: 24, color: '#1f2937' }
+                    },
+                    xaxis: { title: 'Year', dtick: 1 },
+                    yaxis: { title: 'Count per Album' },
+                    height: 500,
+                    paper_bgcolor: 'rgba(0,0,0,0)',
+                    plot_bgcolor: 'rgba(0,0,0,0)',
+                    font: { family: 'system-ui, -apple-system, sans-serif' }
+                };
+
+                Plotly.newPlot('chart1', traces, layout, {responsive: true});
+
+                // Add total trend chart
+                chart2Container.classList.remove('hidden');
+                const totalTrace = [{
+                    x: albums.map(a => globalData[a].year),
+                    y: albums.map(album => globalData[album].total_count),
+                    mode: 'lines+markers',
+                    name: 'Total',
+                    line: { color: '#8b5cf6', width: 3 },
+                    marker: { size: 10 },
+                    fill: 'tozeroy',
+                    fillcolor: 'rgba(139, 92, 246, 0.2)'
+                }];
+
+                const totalLayout = {
+                    title: {
+                        text: 'Total Word Count Trend',
+                        font: { size: 24, color: '#1f2937' }
+                    },
+                    xaxis: { title: 'Year', dtick: 1 },
+                    yaxis: { title: 'Total Count' },
+                    height: 400,
+                    paper_bgcolor: 'rgba(0,0,0,0)',
+                    plot_bgcolor: 'rgba(0,0,0,0)',
+                    font: { family: 'system-ui, -apple-system, sans-serif' }
+                };
+
+                Plotly.newPlot('chart2', totalTrace, totalLayout, {responsive: true});
+            }
+
+            else if (type === 'heatmap') {
+                const zValues = words.map(word =>
+                    albums.map(album => globalData[album].word_counts[word])
+                );
+
+                const trace = [{
+                    x: albumLabels,
+                    y: words,
+                    z: zValues,
+                    type: 'heatmap',
+                    colorscale: 'Viridis',
+                    showscale: true
+                }];
+
+                const layout = {
+                    title: {
+                        text: 'Word Usage Heatmap',
+                        font: { size: 24, color: '#1f2937' }
+                    },
+                    xaxis: {
+                        title: 'Album',
+                        tickangle: -45,
+                        tickfont: { size: 11 }
+                    },
+                    yaxis: { title: 'Word' },
+                    height: 500,
+                    margin: { b: 150, l: 100 },
+                    paper_bgcolor: 'rgba(0,0,0,0)',
+                    plot_bgcolor: 'rgba(0,0,0,0)',
+                    font: { family: 'system-ui, -apple-system, sans-serif' }
+                };
+
+                Plotly.newPlot('chart1', trace, layout, {responsive: true});
+                chart2Container.classList.add('hidden');
+            }
+        }
+
+        // Load data when page loads
+        window.addEventListener('load', loadData);
+    </script>
+</body>
+</html>

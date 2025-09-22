@@ -111,22 +111,6 @@
     },
     "total_count": 2
   },
-  "2020 - evermore": {
-    "year": 2020,
-    "album": "evermore",
-    "total_songs": 17,
-    "word_counts": {
-      "whore": 0,
-      "damn": 14,
-      "goddamn": 6,
-      "hell": 0,
-      "bitch": 0,
-      "shit": 5,
-      "fuck": 2,
-      "dickhead": 0
-    },
-    "total_count": 27
-  },
   "2020 - folklore": {
     "year": 2020,
     "album": "folklore",
@@ -142,6 +126,22 @@
       "dickhead": 0
     },
     "total_count": 10
+  },
+  "2020 - evermore": {
+    "year": 2020,
+    "album": "evermore",
+    "total_songs": 17,
+    "word_counts": {
+      "whore": 0,
+      "damn": 14,
+      "goddamn": 6,
+      "hell": 0,
+      "bitch": 0,
+      "shit": 5,
+      "fuck": 2,
+      "dickhead": 0
+    },
+    "total_count": 27
   },
   "2022 - Midnights": {
     "year": 2022,
